@@ -1,0 +1,742 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+    width: 100%;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+} 
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 15px;
+    max-width: 80%;
+    padding-left: 10%;
+} 
+
+
+header{
+    background: #0033B5;
+    min-width: 100%;
+    min-height: 100px;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.shapka{  
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 170px;
+}
+
+ul{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu li{
+    margin: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+li{
+    border: 1px black;
+    display: inline-block;
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.forma{
+    font-size: 24px;
+    padding-top: 100px;
+}
+.rota{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    
+}
+.rowow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 50px;
+}
+
+.ss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: right;
+    padding-top: 15px;
+}
+
+.inp{
+    width: 300px;
+    height: 20px;
+    background-color: #96ace2;
+    border-radius: 4px;
+    border-width: 3px ;
+    border-color: #0033B5;
+    border-style: solid;
+    color: black;
+    font-size: 16px;
+}
+
+.inp1{
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 140px;
+    min-height: 140px;
+    max-height: 140px;
+    background-color: #96ace2;
+    border-radius: 4px;
+    border-width: 3px ;
+    border-style: solid;
+    border-color: #0033B5 ;
+    color: black;
+    font-size: 16px;
+}
+
+.but{
+    padding-top: 80px;
+    
+}
+
+.but1{
+    width: 200px;
+    height: 40px;
+    background-color: #0033B5;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    font-size: 16px;
+}
+
+footer{
+    
+    margin-top: 50px;
+    background: #0033B5;
+    min-width: 100%;
+    min-height: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.foot{
+    width: 80%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.fot{
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.name{
+    font-size: 36px;
+    padding-top: 70px;
+    font-weight: bolder;
+}
+
+.otziv{
+    font-size: 15px;
+    padding-top: 10px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    padding-top: 50px;
+}
+
+.one img{
+    width: 570px;
+}
+
+.one{
+    margin-right: 25px
+}
+
+.two img{
+    width: 300px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+}
+.twoots{
+    margin-top: 50px;
+}
+
+.tri{
+    margin-left: 50px;
+
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.skidka{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.fullprise{
+    color: gray;
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.pricetxt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 16px;
+    color: gray;
+}
+
+.pricetxt img{
+    width: 33px;
+    margin-left: 5px;
+}
+
+.but2{
+    padding-top: 20px; 
+}
+
+.but3{
+    width: 210px;
+    height: 40px;
+    background-color: #0033B5;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    font-size: 16px;   
+}
+
+.lvl{
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.selectlvl{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.new{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.mb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.pro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.opisanie{
+    margin-top: 100px;
+    max-width: 70%;
+}
+
+.zagolovok{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.osnovtxt{
+    font-size: 18px;
+}
+.osnovtxt1{
+    margin-top: 20px;
+}
+
+.otzivtxt{
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.otziv1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.o{
+    width: 400px;
+    height: 150px;
+    background: #96ace2;
+    border-radius: 15px;
+    margin-right: 15px;  
+}
+
+.d{
+    width: 400px;
+    height: 150px;
+    background: #96ace2;
+    border-radius: 15px;
+}
+
+.t{
+    width: 400px;
+    height: 150px;
+    background: #96ace2;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.zapolnenie{
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.zapolnenie img{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.data{
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+}
+
+.otztxt{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.obratka{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.obratkacc{
+    margin-top: 50px;
+    max-width: 300px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.chatik{
+    margin-top: 90px;
+    margin-bottom: 53px;
+    width: 900px;
+    height: 500px;
+    background-color: #96ace2;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #0033B5;
+    border-style: double;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.prepod{
+    width: 300px;
+    height: 500px;
+    margin-right: 3px;
+    background-color: #7490d8;
+    border-top-left-radius:  10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left-style: double;
+    border-color: #0033B5;
+}
+
+.mesto{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.mesto2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+
+.usermessage{
+    margin-top: 15px;
+    margin-left: 182px;
+    border-radius: 10px;
+    width: 400px;
+    height: 80px;
+    background-color: #7490d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.teacmessage{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 400px;
+    height: 80px;
+    background-color: #7490d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.messagestroka{
+    margin-top: 37px;
+    width: 597px;
+    height: 80px;
+    background-color: #7490d8;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-style: double;
+    border-color: #0033B5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+}
+
+.mesa{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.mesa img{
+    width: 30px;
+    border-radius: 100%;
+}
+
+.nik{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 12px;
+
+}
+
+.kogda{
+    font-size: 12px;
+    color: rgb(83, 83, 83);
+}
+
+.mesatxt{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.messagestroka{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mesainp{
+    width: 398px;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.but4{
+    padding-top: 20px; 
+}
+
+.but5{
+    width: 150px;
+    height: 40px;
+    background-color: #0033B5;
+    border-radius: 5px;
+    border-width: 0px;
+    color: white;
+    font-size: 16px;   
+}
+
+.prepod{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.pre img{
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.online img{
+    margin-top: 3px;
+    padding-right: 5px;
+    width: 10px;
+}
+
+.reiting img{
+    width: 15px;
+}
+
+.reiting{
+    margin-right: 85px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.online{
+    margin-right: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pretxt{
+    margin-left: 35px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 12px;
+    width: 250px;
+}
+
+.blogtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 80%;
+}
+
+.zag1{
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.ab1{
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 25px;
+}
+
+.ab2{
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 25px;
+}
+
+.ab3{
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 25px;
+}
+
+.oformlenie{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.oformlenie img{
+    width: 300px;
+}
+
+.oftxt{
+    margin-left: 50px;
+}
+
+.oftxt1{
+    font-size: 20px;
+    font-weight: normal;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.naz{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.tarifi{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 25px;
+}
+
+.tarif{
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+    background: #7490d8;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nnamme{
+    margin-left: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.opisaniee{
+    background: #96ace2;
+    width: 320px;
+    height: 155px;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.opistxt{
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 50px;
+    font-size: 18px;
+    color:  white;
+}
+
+.cenna{
+    padding-left: 15px;
+    padding-top: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
